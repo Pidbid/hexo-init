@@ -3,7 +3,7 @@ A Chinese hexo docker.
 
 ## What's this ?
 This is a Hexo Blog docker. It changed npm Chinese registry.  
-这是一个Hexo 博客 Docker ，修改了npm国内源。  
+这是一个Hexo 博客 Docker ，修改了npm中国源。  
 
 ## How to use ?
 > docker run -itd -p 4000:4000 -v ./hexo:/hexo --name=hexo wicos/hexo-init  
@@ -15,4 +15,4 @@ This is a Hexo Blog docker. It changed npm Chinese registry.
 - 4000 hexo server port / hexo 服务的端口
 
 ## Github Links
-[hexo-init](https://github.com/Pidbid/hexo-init)
+[Docker Hub](https://hub.docker.com/r/wicos/hexo-init)
