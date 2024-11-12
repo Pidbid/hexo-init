@@ -1,0 +1,15 @@
+name: 打包 hexo-init 镜像
+
+on: push
+
+jobs:
+  builder:
+    name: 打包工作
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 读取仓库内容
+      uses: actions/checkout@v4
+    
+    - name: 获取docker 信息
+      run: docker --version
