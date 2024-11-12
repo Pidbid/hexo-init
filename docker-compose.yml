@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  hexo:
+    image: wicos/hexo-init:latest
+    container_name: hexo
+    volumes:
+      - ./hexo:/hexo
+    ports:
+      - "4000:4000"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped

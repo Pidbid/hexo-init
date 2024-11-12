@@ -1,4 +1,4 @@
-FROM dockette/nodejs:v14
+FROM dockette/nodejs:v16
 WORKDIR /hexo
 ENV PORT=4000
 RUN npm config set registry https://registry.npmmirror.com
