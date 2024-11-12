@@ -14,7 +14,7 @@ jobs:
     - name: 获取docker 信息
       run: docker --version
     - name: 初始 QEMU 支持
-      uses: docker/setup-qumu-action@v3
+      uses: docker/setup-qemu-action@v3
 
     - name: 初始 buildx 支持
       uses: docker/setup-buildx-action@v3
