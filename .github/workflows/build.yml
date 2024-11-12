@@ -28,7 +28,7 @@ jobs:
     - name: 构建镜像并推送
       uses: docker/build-push-action@v6
       with:
-        platform: linux/arm64,linux/amd64
+        platforms: linux/arm64,linux/amd64
         push: true
         tags: wicos/hexo-init:latest
 
